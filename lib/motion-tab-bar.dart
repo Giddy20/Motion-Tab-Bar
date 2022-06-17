@@ -204,7 +204,7 @@ class _MotionTabBarState extends State<MotionTabBar> with TickerProviderStateMix
                         ),
                         SizedBox(
                           height: widget.tabSize,
-                          width: 100,
+                          width: widget.tabSize + 40,
                           child: Container(
                             decoration: BoxDecoration(
 //                               shape: BoxShape.circle,
