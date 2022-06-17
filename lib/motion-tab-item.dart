@@ -60,7 +60,8 @@ class _MotionTabItemState extends State<MotionTabItem> {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
+    return Container(
+      width: 200
       child: Row(
         children: [
           Container(
